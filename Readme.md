@@ -48,7 +48,7 @@
 
 ---
 
-### 🧬 Deep Learning Project #1 — Cross-Modal Geo-Matching Network (Self-built)
+### 🧬  Cross-Modal Geo-Matching Network (Self-built)
 
 > A deep neural network for satellite–drone image matching
 
@@ -63,7 +63,7 @@
 
 ---
 
-### 🧠 Deep Learning Project #2 — Lightweight Vision Transformer for Edge AI (Self-built)
+### 🧠  Lightweight Vision Transformer for Edge AI (Self-built)
 
 > High-performance ViT optimized for edge inference
 
@@ -104,16 +104,7 @@
   - 2 patents (accepted)
   - 1 software copyright
 
----
 
-## 📈 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
-</p>
-
----
 
 ## 🧩 What I'm Interested In
 
