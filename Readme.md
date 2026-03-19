@@ -1,4 +1,4 @@
-<h1>🚀 Lcy | Intelligent Systems Engineer</h1>
+<h1 align="center">🚀 Lcy </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C++-System%20Level-blue?style=for-the-badge&logo=c%2B%2B">
