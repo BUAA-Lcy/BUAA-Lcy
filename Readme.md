@@ -1,122 +1,77 @@
-# 👋 Hi, I'm Lcy
+# 👋 Hi, I'm Lcy (Luo Chenyu)
+<p align="left">
+  <img src="https://img.shields.io/badge/Focus-Intelligent%20Systems-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tech-Bits%20to%20Models-black?style=for-the-badge">
+</p>
 
-> Building intelligent systems from bits to models.
-
----
-
-## 🧠 About Me
-
-- 🎓 M.S. in Computer Technology @ Beihang University (BUAA)
-- 💻 Strong in **C++ / Python / System-level Development**
-- 🤖 Focus on **Deep Learning / Machine Learning / Computer Vision**
-- 🛠️ Interested in **Compiler / OS / High-performance systems**
-- 🛰️ Experience in **UAV Vision Navigation & Embedded AI (RK3588)**
+> **M.S. in Computer Technology @ Beihang University (BUAA)**
+> 
+> *Focusing on the intersection of High-performance Systems and Computer Vision.*
 
 ---
 
-## ⚡ Tech Stack
+### 🛠️ Core Capabilities
 
-### 💻 Languages
-- C++ (STL / Template / System-level optimization)
-- Python (PyTorch / Data Pipeline / ML Infra)
-- TypeScript / Java (Engineering projects)
-
-### 🤖 AI / ML
-- PyTorch / OpenCV / ONNX
-- Feature Matching / Multi-modal Learning
-- Model Optimization & Deployment (Edge devices)
-
-### ⚙️ Systems & Tools
-- Linux / Docker / Git
-- LLVM / Compiler Design
-- Elasticsearch / WebSocket
-
----
-
-## 🔥 Featured Projects
-
-### 🚁 UAV Cross-View Localization (Leader)
-> Geometry-aware + Multi-scale cascade matching system
-
-- Designed a **GNSS-denied navigation system**
-- Built pipeline: `Geometric Correction → Multi-modal Matching → Cascade Refinement`
-- Solved:
-  - Large viewpoint differences
-  - Cross-modal gap (satellite vs aerial)
-  - Scale inconsistency
-- 🏆 2nd place in National UAV Vision Navigation Challenge
-
----
-
-### 🧬  Cross-Modal Geo-Matching Network (Self-built)
-
-> A deep neural network for satellite–drone image matching
-
-- Designed a **dual-branch CNN + Transformer fusion architecture**
-- Introduced **geometric consistency loss + attention alignment**
-- Achieved:
-  - +18% Recall@1 improvement over baseline
-- Supports:
-  - Multi-scale feature extraction
-  - Domain adaptation for terrain shift
-- Deployed with ONNX on embedded platform (RK3588)
+<table align="center">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>💻 System & Infrastructure</h4>
+      <ul>
+        <li><b>Languages:</b> C++ (STL/Templates), Python, TS</li>
+        <li><b>Compiler:</b> LLVM, SysY Compiler Design</li>
+        <li><b>Eng:</b> Linux, Docker, Git, WebSocket</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🤖 AI & Vision</h4>
+      <ul>
+        <li><b>Frameworks:</b> PyTorch, OpenCV, ONNX</li>
+        <li><b>Domain:</b> Feature Matching, Transformer, ViT</li>
+        <li><b>Optimization:</b> Distillation, Quantization</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛰️ Embedded AI (UAV)</h4>
+      <ul>
+        <li><b>Hardware:</b> RK3588, Jetson, Edge AI</li>
+        <li><b>Navigation:</b> GNSS-denied, Cross-view Localize</li>
+        <li><b>Standards:</b> ARINC 661, Avionics Modeling</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🧠  Lightweight Vision Transformer for Edge AI (Self-built)
+### 🚀 Featured Projects
 
-> High-performance ViT optimized for edge inference
+#### 🚁 [UAV Cross-View Localization System](https://github.com/your-repo)
+*GNSS-denied navigation via Geometry-aware & Multi-scale matching*
+- **The Core:** `Geometric Correction` → `Multi-modal Matching` → `Cascade Refinement`
+- **Result:** 🏆 **2nd Place** in National UAV Vision Navigation Challenge.
+- **Keywords:** `Cross-modal Gap`, `Scale Inconsistency`, `Domain Adaptation`.
 
-- Designed a **hybrid CNN-ViT architecture**
-- Applied:
-  - Token pruning
-  - Knowledge distillation
-  - Quantization-aware training
-- Achieved:
-  - 3.2× speedup on edge devices
-  - <20MB model size
-- Used for:
-  - Real-time scene understanding on UAV
+#### 🧠 [Edge-ViT: Lightweight Vision Transformer](https://github.com/your-repo)
+*High-performance hybrid CNN-ViT architecture for real-time inference*
+- **Optimization:** Token pruning + Knowledge distillation + QAT.
+- **Perf:** **3.2× speedup** on RK3588; model size **<20MB**.
 
----
-
-### 🧱 SysY → LLVM Compiler (Solo Project)
-
-> Full pipeline compiler from scratch
-
-- Implemented:
-  - Lexer / Parser / IR Generation
-- Supported:
-  - SysY (C subset) L2 grammar
-- Solved:
-  - Grammar ambiguity
-  - Basic optimization
-- Output:
-  - LLVM IR
+#### 🧱 [SysY-to-LLVM Compiler](https://github.com/your-repo)
+*A complete compiler pipeline built from scratch*
+- **Stack:** Lexer/Parser/IR Gen/Optimization.
+- **Output:** Fully compatible LLVM IR.
 
 ---
 
-### 🛰️ Intelligent Avionics Modeling Platform (Leader)
+### 📊 Github Stats & Contributions
 
-- Built system compliant with **ARINC 661**
-- Introduced **LLM-based multimodal modeling**
-- Achievements:
-  - 2 patents (accepted)
-  - 1 software copyright
-
-
-
-## 🧩 What I'm Interested In
-
-- Large-scale Model Systems
-- Embodied AI / Robotics
-- Compiler & Runtime Optimization
-- High-performance ML Systems
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true&theme=transparent&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact&langs_count=6&theme=transparent" />
+</p>
 
 ---
 
-## 📫 Contact
-
-- Email: 1417743380@qq.com
-- WeChat: LCY1417743380
-
+### 🧩 Research & Interests
+- **Embodied AI:** Making robots perceive and reason like humans.
+- **MLSys:** Optimizing large-scale model inference &
