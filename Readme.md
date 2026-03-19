@@ -1,4 +1,4 @@
-# 🚀 Lcy | Intelligent Systems Engineer
+# 🚀 Lcy
 
 <p align="center">
   <img src="https://img.shields.io/badge/C++-System%20Level-blue?style=for-the-badge&logo=c%2B%2B">
