@@ -1,179 +1,72 @@
-# 🚀 Lcy
+<div align="center">
+  
+# 👋 Hi there, I'm Lcy
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=2000&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Building+intelligent+systems+from+bits+to+models;Deep+Learning+%7C+Computer+Vision+%7C+Systems)](https://git.io/typing-svg)
+
+🎓 M.S. in Computer Technology @ BUAA | 🤖 Embodied AI & High-performance Systems
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-System%20Level-blue?style=for-the-badge&logo=c%2B%2B">
-  <img src="https://img.shields.io/badge/Python-AI%20Engineering-yellow?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Focus-ML%20%2F%20Systems-black?style=for-the-badge">
+  <a href="mailto:1417743380@qq.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="#-contact">
+    <img src="https://img.shields.io/badge/WeChat-Connect-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat" />
+  </a>
 </p>
 
-
-<p align="center">
-  <b>From low-level systems to high-level intelligence</b><br>
-  Building efficient, deployable AI systems in the real world.
-</p>
-
+</div>
 
 ---
 
-## 🧠 About Me
+## ⚡ Tech Stack
 
-```text
-M.S. @ Beihang University (BUAA)
-Focus: AI Systems / Computer Vision / System Optimization
-```
+<div align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/LLVM-5E5C64?style=for-the-badge&logo=llvm&logoColor=white" alt="LLVM" />
+</div>
 
-- ⚙️ Strong in **C++ / Python / System-level Engineering**
-- 🤖 Deeply engaged in **Deep Learning / Computer Vision / ML Infrastructure**
-- 🧩 Bridging **Algorithms ↔ Systems ↔ Deployment**
-- 🛰️ Hands-on experience with **UAV Navigation & Embedded AI (RK3588)**
-
----
-
-## ⚡ Tech Arsenal
-
-### 🧬 AI / ML
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-red">
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green">
-  <img src="https://img.shields.io/badge/ONNX-Deployment-blue">
-</p>
-
-
-- Feature Matching / Cross-modal Learning
-- Model Optimization (Quantization / Distillation / Pruning)
-- Edge Deployment (Embedded AI)
-
-### 💻 Systems
-
-<p>
-  <img src="https://img.shields.io/badge/Linux-System-black">
-  <img src="https://img.shields.io/badge/Docker-Container-blue">
-  <img src="https://img.shields.io/badge/LLVM-Compiler-orange">
-</p>
-
-
-- System-level optimization / performance tuning
-- Compiler design & IR generation
-- High-performance computing mindset
-
-### 🛠 Engineering
-
-- Git / Docker / CI workflows
-- Elasticsearch / WebSocket
-- Data pipeline & infrastructure design
+> **Core Focus:** Feature Matching / Multi-modal Learning / Model Optimization (Edge AI) / Compiler & OS
 
 ---
 
 ## 🔥 Featured Projects
 
-### 🚁 UAV Cross-View Localization
+### 🚁 UAV Cross-View Localization 
+**Role:** Project Leader | **Stack:** PyTorch, OpenCV, Geometry-aware Matching
+> 🏆 **2nd place in National UAV Vision Navigation Challenge**
 
-**Leader | Geometry-aware Multi-scale Matching System**
+* Designed a GNSS-denied navigation system with a `Geometric Correction → Multi-modal Matching → Cascade Refinement` pipeline.
+* Successfully bridged the cross-modal gap (satellite vs. aerial) and solved large viewpoint differences & scale inconsistency.
 
-```text
-GNSS-denied navigation system for UAVs
-```
+### 🧬 Cross-Modal Geo-Matching Network 
+**Role:** Core Developer | **Stack:** PyTorch, Transformer, CNN, RK3588 (ONNX)
+> A deep neural network for satellite–drone image matching deployed on edge.
 
-- **Pipeline**
-  - Geometric Correction
-  - Multi-modal Matching
-  - Cascade Refinement
-
-- **Core challenges solved**
-  - Extreme viewpoint variation
-  - Satellite ↔ UAV modality gap
-  - Scale inconsistency
-
-- 🏆 **2nd Place — National UAV Vision Navigation Challenge**
-
----
-
-### 🧬 Cross-Modal Geo-Matching Network
-
-**Self-built | CNN + Transformer Hybrid**
-
-- **Architecture**
-  - Dual-branch CNN + Transformer fusion
-
-- **Innovations**
-  - Geometric consistency loss
-  - Attention alignment
-
-- **Results**
-  - **+18% Recall@1** over baseline
-
-- **Deployment**
-  - ONNX on RK3588 edge device
-
----
+* Built a dual-branch CNN + Transformer fusion architecture with geometric consistency loss.
+* **Performance:** Achieved **+18% Recall@1** improvement over baseline. Supports domain adaptation for terrain shift.
 
 ### 🧠 Lightweight Vision Transformer for Edge AI
+**Role:** Core Developer | **Stack:** ViT, Knowledge Distillation, Model Quantization
+> High-performance ViT optimized for real-time scene understanding on UAVs.
 
-**Self-built | Efficient ViT for real-time inference**
+* Applied token pruning, knowledge distillation, and quantization-aware training to a hybrid CNN-ViT architecture.
+* **Performance:** Delivered a **3.2× inference speedup** on edge devices with a model size of **<20MB**.
 
-- **Techniques**
-  - Token pruning
-  - Knowledge distillation
-  - Quantization-aware training
+### 🧱 SysY → LLVM Compiler 
+**Role:** Solo Project | **Stack:** C++, LLVM IR, Compiler Design
+> A full-pipeline compiler built from scratch for a C-subset (SysY).
 
-- **Performance**
-  - **3.2× speedup**
-  - **<20MB model size**
+* Implemented Lexer, Parser, and IR Generation for SysY L2 grammar.
+* Addressed grammar ambiguity and applied basic optimization passes to generate valid LLVM IR.
 
-- **Use case**
-  - Real-time UAV scene understanding
 
----
-
-### 🧱 SysY → LLVM Compiler
-
-**Solo Project | Full Compiler Pipeline**
-
-```text
-Source → Lexer → Parser → IR → LLVM
-```
-
-- Implemented full compiler pipeline
-- Supported SysY (C subset)
-- Solved grammar ambiguity
-- Generated LLVM IR
-
----
-
-### 🛰️ Intelligent Avionics Modeling Platform
-
-**Leader | ARINC 661-compliant system**
-
-- Introduced **LLM-based multimodal modeling**
-- **2 patents** accepted
-- **1 software copyright**
-
----
-
-## 🧩 Research Interests
-
-```text
-AI Systems / Embodied Intelligence / Compiler Runtime / High-performance ML
-```
-
-- Large-scale model systems
-- Robotics & embodied AI
-- Compiler and runtime optimization
-- Efficient ML infrastructure
-
----
-
-## 📫 Contact
-
-- 📧 Email: `1417743380@qq.com`
-- 💬 WeChat: `LCY1417743380`
-
----
-
-## ⚡ Philosophy
-
-```text
-Not just building models.
-Building systems that make models usable.
-```
+## 🧩 Exploring Now
+* Large-scale Model Systems & Embodied AI (Robotics)
+* Compiler & Runtime Optimization for High-performance ML
