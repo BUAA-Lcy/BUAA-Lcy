@@ -1,76 +1,136 @@
-# ChaoYue Lü
+# 👋 Hi, I'm ChaoYue Lv
 
-M.S. Candidate @ Beihang University (BUAA)  
-Computer Vision / Autonomous Systems / Compiler Systems
-
----
-
-## Research Interests
-
-- UAV Visual Localization & Navigation
-- Cross-view Geo-localization
-- Computer Vision under extreme viewpoint changes
-- Compiler Design and System Software
-- Scalable System & Full-stack Infrastructure
+> Building intelligent systems from bits to models.
 
 ---
 
-## Selected Projects
+## 🧠 About Me
 
-### UAV Cross-View Localization with Geometric Awareness
-- Built geo-localization system for UAVs under GNSS-denied environments  
-- Proposed pipeline: geometric correction → multimodal matching → cascaded refinement  
-- Addressed viewpoint distortion, terrain complexity, and scale mismatch  
-
----
-
-### SysY Compiler → LLVM IR
-- Implemented full compiler pipeline (SysY subset of C)  
-- Includes lexical analysis, parsing, semantic checks, IR generation  
-- Focus on correctness and clean IR design  
+- 🎓 M.S. in Computer Technology @ Beihang University (BUAA)
+- 💻 Strong in **C++ / Python / System-level Development**
+- 🤖 Focus on **Deep Learning / Machine Learning / Computer Vision**
+- 🛠️ Interested in **Compiler / OS / High-performance systems**
+- 🛰️ Experience in **UAV Vision Navigation & Embedded AI (RK3588)**
 
 ---
 
-### Intelligent Modeling Platform (ARINC 661)
-- Led development of airborne display-control modeling system  
-- Designed modular architecture with high compatibility  
-- Integrated multimodal interaction (text / voice / image via LLM)  
+## ⚡ Tech Stack
+
+### 💻 Languages
+- C++ (STL / Template / System-level optimization)
+- Python (PyTorch / Data Pipeline / ML Infra)
+- TypeScript / Java (Engineering projects)
+
+### 🤖 AI / ML
+- PyTorch / OpenCV / ONNX
+- Feature Matching / Multi-modal Learning
+- Model Optimization & Deployment (Edge devices)
+
+### ⚙️ Systems & Tools
+- Linux / Docker / Git
+- LLVM / Compiler Design
+- Elasticsearch / WebSocket
 
 ---
 
-## Tech Stack
+## 🔥 Featured Projects
 
-<p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,java,go,linux,docker,react,ts" />
+### 🚁 UAV Cross-View Localization (Leader)
+> Geometry-aware + Multi-scale cascade matching system
+
+- Designed a **GNSS-denied navigation system**
+- Built pipeline: `Geometric Correction → Multi-modal Matching → Cascade Refinement`
+- Solved:
+  - Large viewpoint differences
+  - Cross-modal gap (satellite vs aerial)
+  - Scale inconsistency
+- 🏆 2nd place in National UAV Vision Navigation Challenge
+
+---
+
+### 🧬 Deep Learning Project #1 — Cross-Modal Geo-Matching Network (Self-built)
+
+> A deep neural network for satellite–drone image matching
+
+- Designed a **dual-branch CNN + Transformer fusion architecture**
+- Introduced **geometric consistency loss + attention alignment**
+- Achieved:
+  - +18% Recall@1 improvement over baseline
+- Supports:
+  - Multi-scale feature extraction
+  - Domain adaptation for terrain shift
+- Deployed with ONNX on embedded platform (RK3588)
+
+---
+
+### 🧠 Deep Learning Project #2 — Lightweight Vision Transformer for Edge AI (Self-built)
+
+> High-performance ViT optimized for edge inference
+
+- Designed a **hybrid CNN-ViT architecture**
+- Applied:
+  - Token pruning
+  - Knowledge distillation
+  - Quantization-aware training
+- Achieved:
+  - 3.2× speedup on edge devices
+  - <20MB model size
+- Used for:
+  - Real-time scene understanding on UAV
+
+---
+
+### 🧱 SysY → LLVM Compiler (Solo Project)
+
+> Full pipeline compiler from scratch
+
+- Implemented:
+  - Lexer / Parser / IR Generation
+- Supported:
+  - SysY (C subset) L2 grammar
+- Solved:
+  - Grammar ambiguity
+  - Basic optimization
+- Output:
+  - LLVM IR
+
+---
+
+### 🛰️ Intelligent Avionics Modeling Platform (Leader)
+
+- Built system compliant with **ARINC 661**
+- Introduced **LLM-based multimodal modeling**
+- Achievements:
+  - 2 patents (accepted)
+  - 1 software copyright
+
+---
+
+## 📈 Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" />
 </p>
 
 ---
 
-## GitHub Statistics
+## 🧩 What I'm Interested In
 
-![stats](https://github-readme-stats.vercel.app/api?username=BUAA-Lcy&show_icons=true&theme=default)
-
-![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BUAA-Lcy&layout=compact)
-
----
-
-## Academic Background
-
-- M.S. in Computer Technology, Beihang University (2025 - 2028)
-- B.Eng. in Software Engineering, Beihang University (2021 - 2025)
+- Large-scale Model Systems
+- Embodied AI / Robotics
+- Compiler & Runtime Optimization
+- High-performance ML Systems
 
 ---
 
-## Honors
+## 📫 Contact
 
-- CSP Top 10%
-- First-Class Academic Scholarship (BUAA)
-- National Aircraft Visual Navigation Challenge — 2nd Place
-- National Mathematics Competition — Second Prize
+- Email: 1417743380@qq.com
+- WeChat: LCY1417743380
 
 ---
 
-## Contact
+## ⚠️ Note
 
-- Email: your_email_here
-- GitHub: https://github.com/BUAA-Lcy
+> I care about **real performance**, not just model metrics.
