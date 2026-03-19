@@ -1,4 +1,4 @@
-# 👋 Hi, I'm ChaoYue Lv
+# 👋 Hi, I'm Lcy
 
 > Building intelligent systems from bits to models.
 
@@ -120,8 +120,3 @@
 - Email: 1417743380@qq.com
 - WeChat: LCY1417743380
 
----
-
-## ⚠️ Note
-
-> I care about **real performance**, not just model metrics.
